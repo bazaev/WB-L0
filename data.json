@@ -1,0 +1,131 @@
+{
+	"paymentMethod": 0,
+	"paymentMethods": [
+		{
+			"system": "mir",
+			"number": "1234 56•• •••• 1234"
+		},
+		{
+			"system": "visa",
+			"number": "1234 56•• •••• 1234"
+		},
+		{
+			"system": "mastercard",
+			"number": "1234 56•• •••• 1234"
+		},
+		{
+			"system": "maestro",
+			"number": "1234 56•• •••• 1234"
+		}
+	],
+	"deliveryMethod": ["pickup", 0],
+	"deliveryMethods": {
+		"pickup": [
+			{
+				"address": "г. Бишкек, микрорайон Джал, улица Ахунбаева Исы, д. 67/1",
+				"rating": ""
+			},
+			{
+				"address": "г. Бишкек, микрорайон Джал, улица Ахунбаева Исы, д. 67/1",
+				"rating": 4.99
+			},
+			{
+				"address": "г. Бишкек, улица Табышалиева, д. 57",
+				"rating": 4.99
+			}
+		],
+		"delivery": [
+			{
+				"address": "Бишкек, улица Табышалиева, 57"
+			},
+			{
+				"address": "Бишкек, улица Жукеева-Пудовкина, 77/1"
+			},
+			{
+				"address": "Бишкек, микрорайон Джал, улица Ахунбаева Исы, 67/1"
+			}
+		]
+	},
+	"items": [
+		{
+			"id": 0,
+			"name": "Футболка UZcotton мужская",
+			"point": "Коледино WB",
+			"cover": "0.png",
+			"properties": {
+				"color": "белый",
+				"size": "56"
+			},
+			"shop": "OOO Вайлдберриз",
+			"remaining": 2,
+			"count": 1,
+			"price": 1051,
+			"discount": {
+				"shop": 50.33301617507136
+			}
+		},
+		{
+			"id": 1,
+			"name": "Силиконовый чехол картхолдер (отверстия) для карт, прозрачный кейс бампер на Apple iPhone XR, MobiSafe",
+			"point": "Коледино WB",
+			"cover": "1.png",
+			"properties": {
+				"color": "прозрачный"
+			},
+			"shop": "OOO Мегапрофстиль",
+			"remaining": null,
+			"count": 200,
+			"price": 11500.235,
+			"discount": {
+				"shop": 6.695474483782288,
+				"user": 2
+			}
+		},
+		{
+			"id": 2,
+			"name": "Карандаши цветные Faber-Castell \"Замок\", набор 24 цвета, заточенные, шестигранные, Faber-Castell",
+			"point": "Коледино WB",
+			"cover": "2.png",
+			"properties": null,
+			"shop": "OOO Вайлдберриз",
+			"remaining": 0,
+			"count": 2,
+			"price": 475,
+			"discount": {
+				"user": 48
+			}
+		},
+		{
+			"id": 3,
+			"name": "Футболка UZcotton мужская",
+			"point": "Коледино WB",
+			"cover": "0.png",
+			"properties": {
+				"color": "белый",
+				"size": "56"
+			},
+			"shop": "OOO Вайлдберриз",
+			"absent": true
+		},
+		{
+			"id": 4,
+			"name": "Силиконовый чехол картхолдер (отверстия) для карт, прозрачный кейс бампер на Apple iPhone XR, MobiSafe",
+			"point": "Коледино WB",
+			"cover": "1.png",
+			"properties": {
+				"color": "прозрачный"
+			},
+			"shop": "OOO Мегапрофстиль",
+			"absent": true
+		},
+		{
+			"id": 5,
+			"name": "Карандаши цветные Faber-Castell \"Замок\", набор 24 цвета, заточенные, шестигранные, Faber-Castell",
+			"point": "Коледино WB",
+			"cover": "2.png",
+			"properties": null,
+			"shop": "OOO Вайлдберриз",
+			"absent": true
+		}
+	]
+}

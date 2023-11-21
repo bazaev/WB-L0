@@ -1,0 +1,75 @@
+@media only screen and (max-width: 1023px) {
+	#cart .total {
+		width: initial;
+		margin-left: initial;
+		border-radius: initial;
+		padding-right: initial;
+	}
+	#cart .total .total_box {
+		background-color: initial;
+		border-radius: initial;
+		box-shadow: initial;
+		padding: 16px;
+		padding-top: 8px;
+	}
+
+	#cart .total .block {
+		margin-top: 16px;
+	}
+
+	#cart .total .summary_item__header {
+		font-size: 20px;
+		line-height: 28px;
+		margin-bottom: 8px;
+	}
+
+	#cart .total .summary_item__value .summary_item__header {
+		font-size: 20px;
+		line-height: 28px;
+	}
+	
+	#cart .total .summary_item__header .summary_item__price {
+		font-size: 20px;
+		line-height: 28px;
+		word-spacing: .5px;
+		letter-spacing: -.5px;
+	}
+
+	#cart .total .delivery_info {
+		margin-top: initial;
+		background-color: #F0ECF4;
+	}
+
+	#cart .total .delivery_info__icon {
+		margin-top: -4px;
+	}
+
+	#cart .total .delivery_info_text {
+		display: initial;
+	}
+
+	#cart .total .delivery_info_text__green {
+		margin-left: 1px;
+	}
+
+	#cart .total .block.payment {
+		margin-top: initial;
+	}
+
+	#cart .total .payment_prepayment {
+		background-color: #F0ECF4;
+		margin-top: 16px;
+	}
+	
+	#cart .total .block.order {
+		margin-top: 24px;
+	}
+
+	#cart .total .delivery_header,
+	#cart .total .delivery_address,
+	#cart .total .delivery_date,
+	#cart .total .payment_header,
+	#cart .total .payment_card {
+		display: none;
+	}
+}

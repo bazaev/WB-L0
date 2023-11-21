@@ -1,0 +1,15 @@
+@media only screen and (max-width: 1023px) {
+	#cart {
+		flex-direction: column;
+		padding: initial;
+		padding-bottom: 24px;
+	}
+
+	#cart > .content > .title {
+		letter-spacing: initial;
+		margin-top: initial;
+		font-size: 20px;
+		line-height: 28px;
+		margin: 15px 16px 16px;
+	}
+}

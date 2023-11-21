@@ -1,0 +1,75 @@
+.input {
+	--error-color: #F55123;
+	--transition-delay: .3s;
+	position: relative;
+	padding-top: 18px;
+	line-height: 58px;
+	display: inline;
+}
+
+.input .input_input {
+	border: 0px;
+	border-bottom: 1px solid #00000033;
+	font-size: 16px;
+	line-height: 27px;
+	outline: none;
+	padding: 0px;
+	padding-bottom: 1px;
+	box-sizing: border-box;
+	width: 100%;
+	transition: border-color var(--transition-delay);
+}
+
+.input .input_input:focus + .input_placeholder,
+.input .input_input:valid + .input_placeholder {
+	transform: translate(-12%,-22px) scale(.74);
+	letter-spacing: 1px;
+}
+
+.input .input_placeholder {
+	position: absolute;
+	left: 0px;
+	top: 18px;
+	color: var(--subtext-color);
+	font-size: 16px;
+	line-height: 24px;
+	transition: transform var(--transition-delay);
+}
+
+.input .input_error,
+.input .input_error_check,
+.input .input_info {
+	position: absolute;
+	left: 0;
+	bottom: -24px;
+	font-size: 12px;
+	line-height: 14px;
+	transition: opacity var(--transition-delay), transform var(--transition-delay);
+}
+
+.input .input_error,
+.input .input_error_check {
+	bottom: -23px;
+	color: var(--error-color);
+	opacity: 0;
+}
+
+.input.error .input_input {
+	color: var(--error-color);
+}
+
+.input.error .input_input {
+	border-bottom-color: var(--error-color);
+}
+
+.input.error:not(.check) .input_error {
+	opacity: 1;
+}
+
+.input.error.check .input_error_check {
+	opacity: 1;
+}
+
+.input.error .input_info {
+	transform: translateY(100%);
+}

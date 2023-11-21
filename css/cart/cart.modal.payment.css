@@ -1,0 +1,23 @@
+.modal_payment_item {
+	display: flex;
+	margin-bottom: 16px;
+}
+
+.modal_payment_item__radio {
+	padding: 2px;
+	margin-right: 8px;
+}
+
+.modal_payment_item__image {
+	width: 32px;
+	margin-right: 4px;
+	border-radius: 4px;
+	background-color: var(--foreground-color);
+	text-align: center;
+	margin-right: 4px;
+}
+
+.modal_payment_item__value {
+	flex: 1;
+	cursor: pointer;
+}

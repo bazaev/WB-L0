@@ -1,0 +1,28 @@
+.checkbox {
+	display: inline-block;
+	cursor: pointer;
+}
+
+.checkbox_input {
+	display: none;
+}
+
+.checkbox_box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 22px;
+	height: 22px;
+	border-radius: 6px;
+	border: 1px solid #00000033;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: white;
+	box-sizing: border-box;
+}
+
+.checkbox_input:checked + .checkbox_box {
+	border: none;
+	background-color: var(--accent-color);
+	background-image: url('data:image/svg+xml,<svg width="13" height="11" viewBox="0 0 13 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.7354 1.67929L4.58662 10.4839L0.257812 5.66816L1.74523 4.33115L4.60819 7.51617L11.2676 0.320801L12.7354 1.67929Z" fill="white"/></svg>');
+}

@@ -1,0 +1,84 @@
+@font-face {
+	font-family: 'icons';
+	src:
+	url('/res/fonts/icons.ttf?2s0jt7') format('truetype'),
+	url('/res/fonts/icons.woff?2s0jt7') format('woff'),
+	url('/res/fonts/icons.svg?2s0jt7#icons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+	font-size: 16px;
+}
+
+[class^="ico-"], [class*=" ico-"] {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	vertical-align: middle;
+	line-height: 1;
+}
+
+[class^="ico-"]:before, [class*=" ico-"]:before {
+	font-family: 'icons' !important;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.ico-cross:before {
+  content: "\e904";
+}
+.ico-heart:before {
+  content: "\e903";
+}
+.ico-arrow:before {
+  content: "\e900";
+}
+.ico-cart:before {
+  content: "\e901";
+}
+.ico-catalog:before {
+  content: "\e902";
+}
+.ico-check:before {
+  content: "\e905";
+}
+.ico-confirmed:before {
+  content: "\e906";
+}
+.ico-edit:before {
+  content: "\e907";
+}
+.ico-favorites:before {
+  content: "\e908";
+}
+.ico-info:before {
+  content: "\e909";
+}
+.ico-main:before {
+  content: "\e90a";
+}
+.ico-mark:before {
+  content: "\e90b";
+}
+.ico-menu:before {
+  content: "\e90c";
+}
+.ico-menu-mobile:before {
+  content: "\e90d";
+}
+.ico-remove:before {
+  content: "\e90e";
+}
+.ico-search:before {
+  content: "\e90f";
+}
+.ico-star:before {
+  content: "\e910";
+}
+.ico-user:before {
+  content: "\e911";
+}

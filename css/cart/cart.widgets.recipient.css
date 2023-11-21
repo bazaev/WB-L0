@@ -1,0 +1,17 @@
+#cart .widgets .recipient_content {
+	max-width: 700px;
+}
+
+#cart .widgets .recipient_row {
+	display: flex;
+	padding-bottom: 6px;
+}
+
+#cart .widgets .recipient_input {
+	flex: 1;
+	margin-right: 24px;
+}
+
+#cart .widgets .recipient_input:last-child {
+	margin-right: 0;
+}

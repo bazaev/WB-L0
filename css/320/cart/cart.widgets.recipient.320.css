@@ -1,0 +1,15 @@
+@media only screen and (max-width: 1023px) {
+	#cart .widgets .recipient_content {
+		margin-top: -6px;
+	}
+	#cart .widgets .recipient_row {
+		flex-direction: column;
+		padding-bottom: initial;
+	}
+	#cart .widgets .recipient_input {
+		margin-right: initial;
+		flex: none;
+		margin-bottom: 16px;
+		height: 56px;
+	}
+}

@@ -1,0 +1,233 @@
+#cart .total {
+	flex: none;
+	width: 303px;
+	margin-left: 32px;
+	border-radius: 16px;
+	padding-right: 1px;
+}
+
+#cart .total .total_box {
+	background-color: white;
+	padding: 24px;
+	padding-top: 16px;
+	border-radius: 16px;
+	box-shadow: 0px 0px 1px #00000026, 0px 0px 10px #0000004d;
+}
+
+#cart .total .block {
+	display: flex;
+	flex-direction: column;
+	margin-top: 24px;
+}
+
+#cart .total .block:first-child {
+	margin-top: 0;
+}
+
+#cart .block.summary {
+	padding-bottom: 1px;
+}
+
+#cart .total .summary_item {
+	display: flex;
+}
+
+#cart .total .summary_item__header {
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 700;
+	margin: 0;
+	margin-bottom: 8px;
+}
+
+#cart .total .summary_item__value .summary_item__header {
+	font-size: 20px;
+	line-height: 28px;
+}
+
+#cart .total .summary_item__header .summary_item__price {
+	font-size: 24px;
+	line-height: 32px;
+	word-spacing: .5px;
+	letter-spacing: -.5px;
+}
+
+#cart .total .summary_item__name {
+	flex: 1;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+#cart .total .summary_item__value {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+#cart .total .delivery_header {
+	display: flex;
+	align-items: center;
+}
+
+#cart .total .delivery_header__title {
+	flex: 1;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	margin: 0;
+}
+
+#cart .total .delivery_header__edit {
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	color: #cb11ab;
+}
+
+#cart .total .delivery_address {
+	font-size: 13px;
+	line-height: 16px;
+	margin-top: 4px;
+}
+
+#cart .total .delivery_date {
+	color: var(--accent-color);
+	font-size: 13px;
+	line-height: 16px;
+	margin-top: 4px;
+}
+
+#cart .total .delivery_date__text {
+	border-bottom: 1px dashed var(--accent-color);
+	cursor: pointer;
+}
+
+#cart .total .delivery_info {
+	position: relative;
+	display: flex;
+	align-items: center;
+	background-color: var(--foreground-color);
+	padding: 8px;
+	padding-bottom: 12px;
+	margin-top: 13px;
+	border-radius: 8px;
+}
+
+#cart .total .delivery_info__icon {
+	flex: none;
+	width: 22px;
+	height: 22px;
+	margin-right: 8px;
+	font-size: 22px;
+	color: #0CD38B;
+}
+
+#cart .total .delivery_info_text {
+	font-size: 13px;
+	line-height: 16px;
+}
+
+#cart .total .delivery_info_text::before {
+	content: "";
+	float: right;
+	height: 1px;
+	width: 2em;
+}
+
+#cart .total .delivery_info_text__free {
+	position: initial;
+	color: #0CB477;
+    border-bottom: 1px dashed #0CB477;
+	cursor: pointer;
+}
+
+#cart .total .delivery_info__popup {
+	width: 100%;
+}
+
+#cart .total .payment_header {
+	display: flex;
+	align-items: center;
+}
+
+#cart .total .payment_header__title {
+	flex: 1;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	margin: 0;
+}
+
+#cart .total .payment_header__edit {
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	color: #cb11ab;
+}
+
+#cart .total .payment_card {
+	display: flex;
+	align-items: center;
+	margin-top: 4px;
+}
+
+#cart .total .payment_card__system {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	width: 32px;
+	height: 24px;
+	background-color: var(--foreground-color);
+	border-radius: 4px;
+	margin-right: 8px;
+}
+
+#cart .total .payment_card__number {
+	font-size: 13px;
+	line-height: 16px;
+}
+
+#cart .total .payment_prepayment {
+	background-color: var(--foreground-color);
+	padding: 8px;
+	padding-bottom: 12px;
+	margin-top: 12px;
+	border-radius: 8px;
+}
+
+#cart .total .payment_prepayment_checkbox {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+#cart .total .payment_prepayment_checkbox__text {
+	font-size: 13px;
+	line-height: 16px;
+	margin-left: 8px;
+}
+
+#cart .total .payment_prepayment__info {
+	font-size: 13px;
+	line-height: 16px;
+	margin-top: 8px;
+}
+
+#cart .total .order_agreement {
+	display: flex;
+	align-items: flex-start;
+	margin-top: 12px;
+}
+
+#cart .total .order_agreement__icon {
+	flex: none;
+	width: 13px;
+	height: 16px;
+	margin-right: 8px;
+	font-size: 12px;
+}
+
+#cart .total .order_agreement__text {
+	font-size: 13px;
+	line-height: 16px;
+	padding-right: 20px;
+}

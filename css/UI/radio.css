@@ -1,0 +1,23 @@
+.radio {
+	display: inline-block;
+	cursor: pointer;
+}
+
+.radio_input {
+	display: none;
+}
+
+.radio_box {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	border: 1px solid #00000033;
+	background-color: white;
+	box-sizing: border-box;
+}
+
+.radio_input:checked + .radio_box {
+	border-color: var(--accent-color);
+	border-width: 5px;
+}

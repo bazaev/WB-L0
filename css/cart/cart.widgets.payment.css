@@ -1,0 +1,31 @@
+#cart .widgets .payment_content {
+	display: flex;
+	align-items: center;
+}
+
+#cart .widgets .payment_card__system {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	width: 32px;
+	height: 24px;
+	border-radius: 4px;
+	background-color: var(--foreground-color);
+	margin-right: 8px;
+}
+
+#cart .widgets .payment_card__number {
+	margin-right: 12px;
+}
+
+#cart .widgets .payment_card__number,
+#cart .widgets .payment_card__date {
+	line-height: 24px;
+}
+
+#cart .widgets .payment_info {
+	color: var(--subtext-color);
+	font-size: 13px;
+	line-height: 15px;
+	margin-top: 8px;
+}

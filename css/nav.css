@@ -1,0 +1,64 @@
+#mobile {
+	height: 56px;
+	display: none;
+}
+
+#mobile .nav {
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+}
+
+#mobile .nav_item {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	width: 54px;
+	height: 56px;
+	color: #CCCCCC;
+	cursor: pointer;
+	transition: color var(--transition-duration);
+}
+
+#mobile .nav_item:hover {
+	color: var(--accent-color);
+}
+
+#mobile .nav_item::before {
+	content: attr(data-count);
+	position: absolute;
+	top: 9px;
+	right: 7px;
+	color: white;
+	font-size: 10px;
+	font-weight: 700;
+	line-height: 16px;
+	padding: 0 5px;
+	border-radius: 16px;
+	background-color: var(--info-color); 
+}
+
+#mobile .nav_item.active {
+	color: var(--accent-color);
+}
+
+#mobile .nav_item__main > i {
+	font-size: 28px;
+}
+
+#mobile .nav_item__catalog > i {
+	font-size: 20px;
+}
+
+#mobile .nav_item__cart > i {
+	font-size: 24px;
+}
+
+#mobile .nav_item__favorites > i {
+	font-size: 20px;
+}
+
+#mobile .nav_item__user > i {
+	font-size: 23px;
+	margin-top: -3px;
+}

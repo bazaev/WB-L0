@@ -1,0 +1,30 @@
+@media only screen and (max-width: 1023px) {
+	#cart .widgets .delivery_item {
+		flex-direction: column;
+	}
+
+	#cart .widgets .delivery_item_title {
+		width: initial;
+	}
+
+	#cart .widgets .delivery_item_content {
+		margin-bottom: 16px;
+	}
+
+	#cart .widgets .delivery_item_units {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	#cart .widgets .delivery_info {
+		margin: -8px 8px 0;
+	}
+
+	#cart .widgets .delivery_info_title {
+		line-height: 16px;
+	}
+
+	#cart .widgets .delivery_info_title__green {
+		padding-left: 1px;
+	}
+}

@@ -1,0 +1,38 @@
+#cart .header {
+	display: flex;
+	align-items: center;
+	padding-bottom: 17px;
+	border-bottom: 1px solid #0000001a;
+	height: 22px;
+}
+
+#cart .header_title {
+	flex: 1;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+#cart .header_title__subtitle,
+#cart .items__absent .header_title {
+	font-weight: 600;
+}
+
+#cart .header_title > label {
+	cursor: pointer;
+}
+
+#cart .header_spoiler__button {
+	border: none;
+	outline: none;
+	width: 20px;
+	height: 20px;
+	background-color: transparent;
+	cursor: pointer;
+	font-size: 10px;
+	margin-top: 2px;
+	margin-left: 11px;
+}
+
+#cart .items.hide .header_spoiler__button {
+	transform: rotate(180deg);
+}

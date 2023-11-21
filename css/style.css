@@ -1,0 +1,40 @@
+@import url('fonts.css');
+@import url('vars.css');
+@import url('header.css');
+@import url('footer.css');
+@import url('nav.css');
+@import url('cart/cart.css');
+@import url('UI/UI.css');
+
+/* Desktop */
+@import url('1400/1400.css');
+
+/* Mobile */
+@import url('320/320.css');
+
+/* Icons */
+@import url('icons.css');
+
+html {
+	padding: 0;
+	background-color: var(--background-color);
+	cursor: default;
+	/* width: 1024px; */
+	/* width: 1400px; */
+	/* height: 2045px; */
+	-webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+}
+
+body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+html, input {
+	font: 400 16px/24px 'Segoe UI';
+}
+
+#wrapper {
+	flex: 1;
+}

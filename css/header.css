@@ -1,0 +1,142 @@
+#header {
+	display: flex;
+	align-items: center;
+	padding: 16px 20px 16px 24px;
+	background-color: var(--background-color);
+}
+
+#header .menu {
+	flex: none;
+	color: white;
+	border-radius: 8px;
+	border: 1px solid #ffffff45;
+	width: 46px;
+	height: 46px;
+	margin-right: 16px;
+	cursor: pointer;
+}
+
+#header .menu__icon {
+	font-size: 23px;
+	margin-top: 12px;
+}
+
+#header .menu__icon_mobile {
+	display: none;
+}
+
+#header .title {
+	flex: none;
+	width: 106px;
+	color: #fff;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+	text-align-last: right;
+	padding-top: 1px;
+}
+
+#header .search {
+	display: flex;
+	flex: 1;
+	align-items: center;
+	color: #fff;
+	font-size: 19px;
+	margin: 0 32px;
+	padding: 10px 20px 10px 20px;
+	border-radius: 36px;
+	background-color: #ffffff33;
+	cursor: text;
+}
+
+#header .search_input {
+	flex: 1;
+	border: none;
+	color: white;
+	background: transparent;
+	font-size: 18px;
+	outline: none;
+	padding: 0px 0 4px 0;
+}
+
+#header .search_input::placeholder {
+	color: #ffffff88;
+}
+
+#header .search_button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 24px;
+	height: 24px;
+	opacity: 0.4;
+	cursor: pointer;
+}
+
+#header .sections {
+	flex: none;
+	display: flex;
+}
+
+#header .sections_section {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 40px;
+	height: 56px;
+	width: 56px;
+	cursor: pointer;
+}
+
+#header .sections_section::before {
+	content: attr(data-count);
+	position: absolute;
+	top: -4px;
+	right: 8px;
+	color: white;
+	font-size: 9px;
+	background-color: var(--info-color);
+	border-radius: 16px;
+	padding: 0px 5px;
+	text-align: center;
+	font-weight: 700;
+	line-height: 16px;
+}
+
+
+#header .sections_section:last-child {
+	margin: 0;
+}
+
+#header .sections_section_icon {
+	width: 30px;
+	height: 30px;
+	color: white;
+	pointer-events: none;
+	align-items: flex-start;
+}
+
+#sections_profile .sections_section_icon {
+	font-size: 20px;
+	margin-top: 4px;
+	margin-left: 4px;
+}
+
+#sections_cart .sections_section_icon {
+	font-size: 24px;
+	margin-left: -4px;
+	margin-top: 4px;
+}
+
+#header .sections_section_title {
+	display: flex;
+	align-items: center;
+	color: white;
+	font-size: 13px;
+	line-height: 16px;
+	padding-top: 2px;
+}

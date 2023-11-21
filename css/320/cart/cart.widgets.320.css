@@ -1,0 +1,32 @@
+@media only screen and (max-width: 1023px) {
+	#cart .widgets {
+		margin-top: 32px;
+	}
+
+	#cart .widget {
+		padding: 16px;
+		padding-bottom: 24px;
+		margin-bottom: 11px;
+		border-radius: 16px;
+	}
+
+	#cart .widget:last-child {
+		margin-bottom: 4px;
+	}
+
+	#cart .widget_header {
+		margin-bottom: 10px;
+	}
+
+	#cart .widget_title {
+		font-size: 20px;
+		line-height: 28px;
+		letter-spacing: -0.2px;
+	}
+
+	#cart .widget_edit {
+		font-size: 16px;
+		line-height: 24px;
+		margin-right: -2px;
+	}
+}

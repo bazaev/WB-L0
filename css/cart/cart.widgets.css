@@ -1,0 +1,35 @@
+#cart .widgets {
+	margin-top: 40px;
+}
+
+#cart .widget {
+	background-color: white;
+	padding: 24px;
+	padding-top: 16px;
+	margin-bottom: 16px;
+	margin-right: 2px;
+	border-radius: 24px;
+}
+
+#cart .widget_header {
+	display: flex;
+	align-items: flex-end;
+	margin-bottom: 14px;
+}
+
+#cart .widget_title {
+	flex: 1;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 35px;
+	letter-spacing: -0.2px;
+	margin: 0;
+}
+
+#cart .widget_edit {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 30px;
+	color: var(--accent-color);
+	cursor: pointer;
+}

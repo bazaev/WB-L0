@@ -1,0 +1,9 @@
+:root {
+	--accent-color: #CB11AB;
+	--accent-color-inactive: #CB11AB26;
+	--background-color: #6725A8;
+	--subtext-color: #9797AF;
+	--info-color: #F55123;
+	--foreground-color: #F6F6FA;
+	--transition-duration: .3s;
+}
