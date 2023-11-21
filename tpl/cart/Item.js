@@ -57,6 +57,8 @@ const Item = ({ cover, name, properties, point, shop, count, remaining, discount
 			</div>
 		`;
 
+		const [businessType, shopName] = shop.split(" ");
+
 		pointItem = `
 			<div class="item_point">${point}</div>
 			<div class="item_shop">
@@ -64,7 +66,7 @@ const Item = ({ cover, name, properties, point, shop, count, remaining, discount
 				<div class="item_shop_info ico-info popup">
 					<div class="item_shop_info__popup popup_content">
 						<div class="item_shop_info__title">
-							OOO «МЕГАПРОФСТИЛЬ»
+							${businessType} «${shopName}»
 						</div>
 						<div class="item_shop_info__text">
 							ОГРН: 5167746237148
