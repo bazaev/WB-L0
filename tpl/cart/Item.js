@@ -131,7 +131,7 @@ const Item = ({ cover, name, properties, point, shop, count, remaining, discount
 	item.innerHTML = `
 		<label class="item_cover">
 			${checkboxItem}
-			<img src="/res/img/${cover}" class="item_img" alt="">
+			<img src="res/img/${cover}" class="item_img" alt="">
 			<div class="item_cover__size">${propertiesSize}</div>
 		</label>
 		<div class="item_info">
