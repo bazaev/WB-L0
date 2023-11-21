@@ -1,7 +1,7 @@
 import CartUI from "./cart.UI.js";
-import Item from "/tpl/cart/Item.js";
-import { getCart } from "../API.js";
-import { toFixedLocale } from "../utils.js";
+import Item from "./../../tpl/cart/Item.js";
+import { getCart } from "./../API.js";
+import { toFixedLocale } from "./../utils.js";
 
 class Cart extends CartUI {
 
