@@ -122,6 +122,7 @@
 	font-size: 13px;
 	font-weight: 700;
 	line-height: 16px;
+	text-transform: uppercase;
 }
 
 #cart .items .item_shop_info__text {
