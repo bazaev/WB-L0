@@ -19,7 +19,7 @@ const PaymentModal = (paymentMethods, paymentMethod) => {
 					<span class="radio_box"></span>
 				</div>
 				<div class="modal_payment_item__image">
-					<img src="/res/banks/${item.system}.svg" alt="" />
+					<img src="res/banks/${item.system}.svg" alt="" />
 				</div>
 				<div class="modal_payment_item__value">
 					<div class="modal_payment_item__address">${item.number}</div>
