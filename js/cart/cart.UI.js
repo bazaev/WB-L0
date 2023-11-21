@@ -334,7 +334,7 @@ class CartUI {
 
 		const orderHandler = () => {
 			let firstError;
-			
+
 			for (const key in inputs) {
 				const input = inputs[key];
 				const parent = input.parentNode;
@@ -367,7 +367,7 @@ class CartUI {
 			let error;
 			if (value) {
 				if (name === "name" || name === "surname") {
-					parent.classList.remove("error");
+					error = false
 				}else if (name === "phone") {
 					const match = value.replaceAll(/[^0-9]+/g, '').match(this.#phoneMask);
 					if (match) {
@@ -388,8 +388,8 @@ class CartUI {
 						}
 					}
 				}else if (name === "email") {
-					const match = value.match(this.#emailRegExp);
-					if (match) {
+					const test = this.#emailRegExp.test(value);
+					if (test) {
 						error = false
 					}else{
 						if (type === "blur") {
@@ -397,8 +397,8 @@ class CartUI {
 						}
 					}
 				}else if (name === "inn") {
-					const match = value.match(/^\d{14}$/);
-					if (match) {
+					const test = /^\d{14}$/.test(value);
+					if (test) {
 						error = false
 					}else{
 						if (type === "blur") {
